@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5B4B4"
+    android:screenOrientation="portrait"
+    tools:context=".AdvancedLevel">
+
+
+    <ImageView
+        android:id="@+id/uniqueCarImg2"
+        android:layout_width="205dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="283dp"
+        android:layout_marginBottom="33dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/uniqueCarImg3"
+        app:layout_constraintEnd_toStartOf="@+id/txtInput2"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/uniqueCarImg3"
+        android:layout_width="205dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="162dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtInput3"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uniqueCarImg2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/avdSubmitBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput3" />
+
+    <EditText
+        android:id="@+id/txtInput3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="78dp"
+        android:ems="10"
+        android:hint="@string/enter_car_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/avdSubmitBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput2" />
+
+    <EditText
+        android:id="@+id/txtInput1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="107dp"
+        android:ems="10"
+        android:hint="@string/enter_car_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtInput2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/uniqueCarImg1"
+        android:layout_width="205dp"
+        android:layout_height="127dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toStartOf="@+id/txtInput1"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtInput2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="119dp"
+        android:ems="10"
+        android:hint="@string/enter_car_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtInput3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput1" />
+
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="91dp"
+        android:layout_height="28dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue_800"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtInput1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/avdTimer"
+        android:layout_width="93dp"
+        android:layout_height="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue_800"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uniqueCarImg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+
+</android.support.constraint.ConstraintLayout>

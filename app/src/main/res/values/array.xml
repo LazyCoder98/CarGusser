@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cars">
+        <item>Lexus</item>
+        <item>Kia</item>
+        <item>Subaru</item>
+        <item>Mazda</item>
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Peugeot</item>
+        <item>Bentley</item>
+        <item>Volvo</item>
+        <item>Nissan</item>
+        <item>Jaguar</item>
+        <item>Hyundai</item>
+        <item>Renault</item>
+        <item>Mitsubishi</item>
+        <item>Volkswagen</item>
+        <item>Audi</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Cadillac</item>
+        <item>Mini</item>
+        <item>BMW</item>
+        <item>Lotus</item>
+        <item>Tesla</item>
+        <item>Lamborghini</item>
+        <item>Ferrari</item>
+        <item>Maserati</item>
+        <item>Bugatti</item>
+        <item>Porsche</item>
+        <item>Koenigsegg</item>
+        <item>Jeep</item>
+    </string-array>
+
+    <string-array name="imgName">
+        <item>car_0</item>
+        <item>car_1</item>
+        <item>car_2</item>
+        <item>car_3</item>
+        <item>car_4</item>
+        <item>car_5</item>
+        <item>car_6</item>
+        <item>car_7</item>
+        <item>car_8</item>
+        <item>car_9</item>
+        <item>car_10</item>
+        <item>car_11</item>
+        <item>car_12</item>
+        <item>car_13</item>
+        <item>car_14</item>
+        <item>car_15</item>
+        <item>car_16</item>
+        <item>car_17</item>
+        <item>car_18</item>
+        <item>car_19</item>
+        <item>car_20</item>
+        <item>car_21</item>
+        <item>car_22</item>
+        <item>car_23</item>
+        <item>car_24</item>
+        <item>car_25</item>
+        <item>car_26</item>
+        <item>car_27</item>
+        <item>car_28</item>
+        <item>car_29</item>
+    </string-array>
+
+
+
+</resources>

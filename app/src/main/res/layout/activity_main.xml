@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    android:backgroundTint="#8B000000"
+    android:backgroundTintMode="src_over"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+
+    <Button
+
+        android:id="@+id/idCarMakeBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="301dp"
+        android:text="@string/identify_the_car_make"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hintsBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/hints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idCarMakeBtn" />
+
+    <Button
+        android:id="@+id/avdLevelBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/advanced_level"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idCarImageBtn" />
+
+    <Button
+        android:id="@+id/idCarImageBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/identify_the_car_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hintsBtn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="176dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="75dp"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/idCarMakeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/timerSwitch"
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/timer"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

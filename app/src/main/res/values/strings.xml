@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CarGuessr</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="menu">MENU</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="guess_the_car">Guess The Car</string>
+    <string name="identify">Identify</string>
+    <string name="todo">TODO</string>
+    <string name="submit">Submit</string>
+    <string name="timer">Timer</string>
+    <string name="next">Next</string>
+    <string name="times_up">Times Up!</string>
+    <string name="input_letter">Input Letter</string>
+    <string name="enter_car_name">Enter Car Name</string>
+    <string name="enter_a_letter">Enter a Letter</string>
+    <string name="tries_left">Tries Left :</string>
+
+
+</resources>

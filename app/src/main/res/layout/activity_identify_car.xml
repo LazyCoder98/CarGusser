@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5B4B4"
+    android:screenOrientation="portrait"
+    tools:context=".identifyCar">
+
+    <ImageView
+        android:id="@+id/randomCarHints"
+        android:layout_width="358dp"
+        android:layout_height="223dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/carListSpinner"
+
+        style="@android:style/Widget.Material.Light.Spinner.Underlined"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:dropDownSelector="@color/blue_800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <Button
+        android:id="@+id/identifyBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="174dp"
+        android:text="@string/identify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carListSpinner"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/resultBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/randomCarHints"
+        app:layout_constraintEnd_toEndOf="@+id/randomCarHints"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/randomCarHints"
+        app:layout_constraintTop_toTopOf="@+id/randomCarHints"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <TextView
+        android:id="@+id/displayAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFD600"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/carListSpinner"
+        app:layout_constraintEnd_toEndOf="@+id/carListSpinner"
+        app:layout_constraintStart_toStartOf="@+id/carListSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/randomCarHints" />
+
+    <TextView
+        android:id="@+id/showTimer"
+        android:layout_width="121dp"
+        android:layout_height="27dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textColor="@color/blue_800"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/randomCarHints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+</android.support.constraint.ConstraintLayout>
